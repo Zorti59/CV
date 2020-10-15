@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(175, 0, 15);
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,16 +17,16 @@ h1, h2, h3, h5, .language, .inside h3, p, .list, .category, .picture {
 
 h2 {
     text-transform: uppercase;
-    color: black;
+    color: white;
+    background-color: black;
+    font-size: 250%;
+    padding: 5px 0;
 }
 
 h3 {
     text-transform: capitalize;
 }
 
-.languageall {}
-
-.language {}
 
 .clean {
     clear: both;
@@ -50,7 +50,7 @@ header {
     height: 700px;
     width: 260px;
     position: fixed;
-    background: linear-gradient(98deg, rgba(255, 255, 255,0.88) calc(69.5% - 0.2px), rgb(175, 0, 15) 70%);
+    background: linear-gradient(98deg, rgba(255, 255, 255,0.88) calc(69.5% - 0.2px), rgba(175, 0, 15,0) 70%);
 }
 
 nav {
@@ -68,8 +68,6 @@ h1 {
     line-height: 70px;
     font-family: 'Azonix';
 }
-
-
 
  nav p {
     font-weight: bold;
@@ -129,14 +127,40 @@ nav ul li a:hover {
   }
 /*Body*/
 
+.titleContent {
+    padding: 40px 0;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+ .picture {
+    padding-bottom: 4%;
+ }
+
 .picture img {
-    width: 10%;
+    width: 22%;
+    border-radius: 50%;
 }
 
 .category {
-margin-left: 18%;
+    margin-left: 18%;
 }
 
 footer {
     background-color: black;
+}
+
+.list {
+    font-size: 18px;
+    padding-bottom: 4%;
+}
+
+.listNetwork img {
+    width: 7%;
+    transition: border-radius 2s;
+    padding: 0 10px;
+}
+
+.listNetwork img:hover {
+    border-radius: 50%;
+	transition: all 1s;
 }
