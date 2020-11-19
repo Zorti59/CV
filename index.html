@@ -4,42 +4,46 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <title>CV Developpeur WEB</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 
 
 <body>
-    <header>
+    <header class="animate__animated animate__fadeInLeftBig">
+        <div id="title" class="animate__animated animate__fadeInLeft">
+            <h1>Bruno <br>Bastin</h1>
+            <p>Développeur WEB</p>
+        </div>
         <nav>
-            <div class="title">
-                <h1>Bruno <br>Bastin</h1>
-                <p>Développeur WEB</p>
-            </div>
             <ul>
-                <li><a class="information" href="#category1">Qui suis-je ?</a></li>
-                <li><a class="experience" href="#category2">Expériences</a></li>
-                <li><a class="languages" href="#category3">Languages</a></li>
-                <li><a class="cursus" href="#category4">Cursus</a></li>
-                <li><a class="portfolio" href="#category5">Portfolio</a></li>
+                <li><a class="information" href="index.html">Qui suis-je ?</a></li>
+                <li><a class="cursus" href="cursus.html">Cursus</a></li>
+                <li><a class="experience" href="experience.html">Expériences</a></li>
+                <li><a class="languages" href="languages.html">Langages</a></li>
+                <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
-
+        <div class="listNetwork">
+            <img src="Assets/logofacebook.png" alt="Facebook" title="Facebook">
+            <img src="Assets/logogithub.png" alt="GitHub" title="GitHub">
+            <img src="Assets/logolinkedin.png" alt="Linkedin" title="Linkedin">
+        </div>
     </header>
 
 
-
-    <section class="category" id="category1">
-        <div class="titleContent">
-            <h2>Qui suis-je ?</h2>
-        </div>
+    <section id="category1" class="animate__animated animate__fadeInRight" >
         <div class="inside">
-            <div class="picture"><img src="Assets/selfie.jpg" alt="Photo">
-            </div>
+            <h2>Qui suis-je ?</h2>
+            <img src="Assets/selfie.jpg" alt="Photo">
             <div class="list">
                 <p>Récemment entré dans le monde du développement WEB, je me forme grâce à POPSCHOOL.<br>
                     Maintenant initié à plusieurs languages, je suis à la recherche d'un stage qui me permettra
@@ -47,19 +51,15 @@
                     et d'améliorer davantages mes compétences.
                 </p>
             </div>
-            <p>Rejoignez-moi !</p>
-            <div class="listNetwork">
-                <img src="Assets/logofacebook.png" alt="logo_facebook">
-                <img src="Assets/logotwitter.png" alt="logo_facebook">
-                <img src="Assets/logolinkedin.png" alt="logo_facebook">
-            </div>
         </div>
     </section>
 
 
-    <!-- 
-    <section class="category" id="category2">
-        <h2>Languages</h2>
+
+    <!-- <section class="category" id="category2">
+        <div class="titleContent">
+            <h2>Languages</h2>
+        </div>
         <div class="languageall">
             <div class="language">
                 <h4>HTML</h4>
@@ -71,10 +71,10 @@
             </div>
         </div>
         <div class="clean"></div>
-    </section>
 
+    </section> -->
 
-
+    <!-- 
     <section class="category" id="category3">
         <h2>Expériences</h2>
         <div class="inside">
@@ -110,18 +110,11 @@
             <img src="" alt="">
         </div>
     </section>
+-->
 
 
 
-    <footer>
-        <h5>N'hésitez pas à me suivre !</h5>
-        <div class="list">
-            <img src="/home/popuser/Images/logofacebook.png" alt="logo_facebook">
-            <img src="/home/popuser/Images/logotwitter.png" alt="logo_facebook">
-            <img src="/home/popuser/Images/logolinkedin.png" alt="logo_facebook">
-        </div>
-    </footer> -->
+    <script type="text/javascript" src="script.js"></script>
 </body>
-<script type="text/javascript" src="script.js"></script>
 
 </html>

@@ -1,166 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: rgb(175, 0, 15);
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3, h5, .language, .inside h3, p, .list, .category, .picture {
-    text-align: center;
-}
-
-
-
-h2 {
-    text-transform: uppercase;
-    color: white;
-    background-color: black;
-    font-size: 250%;
-    padding: 5px 0;
-}
-
-h3 {
-    text-transform: capitalize;
-}
-
-
-.clean {
-    clear: both;
-}
-
-a {
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
-}
-
-li {
-    list-style-type: none;
-}
-
-/*Header*/
-
-header {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    height: 700px;
-    width: 260px;
-    position: fixed;
-    background: linear-gradient(98deg, rgba(255, 255, 255,0.88) calc(69.5% - 0.2px), rgba(175, 0, 15,0) 70%);
-}
-
-nav {
-    height: auto;
-    text-transform: uppercase;
-}
-.title {
-    padding: 30px 0 0 40px;
-}
-
-h1 {
-    font-size: 420%;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 70px;
-    font-family: 'Azonix';
-}
-
- nav p {
-    font-weight: bold;
- }
-
-nav ul {
-    padding-top: 60px;
-    list-style-type: none;
-}
-
-nav ul li {
-    padding: 15px 0;
-}
-
-nav ul li a {
-    padding: 5px 0 5px 40px;
-    font-weight: bold;
-}
-
-.information {
-    padding-right: 15px;
-}
-
-.experience {
-    padding-right: 13.22px;
-}
-
-.languages {
-    padding-right: 23.7px;
-}
-
-.cursus {
-    padding-right: 54.77px;
-}
-
-.portfolio {
-    padding-right: 30.9px;
-}
-
-nav ul li a:hover {
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    animation: slidehover alternate 0.5s;
-}
-
-@keyframes slidehover {
-    0% {
-        margin-left: 0px;
-    }
-    50% {
-        margin-left: 5px;
-    }
-    100% {
-        margin-left: 0px;
-    }
-  }
 /*Body*/
 
-.titleContent {
-    padding: 40px 0;
-    margin-right: 30%;
-    margin-left: 30%;
-}
- .picture {
-    padding-bottom: 4%;
- }
 
-.picture img {
+.inside {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.inside img {
     width: 22%;
     border-radius: 50%;
 }
 
-.category {
-    margin-left: 18%;
+#category1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-footer {
-    background-color: black;
+
+.animate__animated.animate__fadeInLeft {
+    animation-delay: 0.5s;
 }
 
 .list {
     font-size: 18px;
     padding-bottom: 4%;
-}
-
-.listNetwork img {
-    width: 7%;
-    transition: border-radius 2s;
-    padding: 0 10px;
-}
-
-.listNetwork img:hover {
-    border-radius: 50%;
-	transition: all 1s;
+    padding-top: 4%;
+    text-align: center;
 }
