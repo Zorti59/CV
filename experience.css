@@ -1,0 +1,25 @@
+#category3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+.inside3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    text-align: center;
+}
+.experience_content {
+    padding: 20px 0;
+}
+h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h3 {
+    padding-bottom: 10px;
+}

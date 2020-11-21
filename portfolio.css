@@ -1,0 +1,19 @@
+#category5 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+.inside5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    text-align: center;
+}
+h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
