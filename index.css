@@ -31,3 +31,7 @@ align-items: center;
     padding-top: 4%;
     text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+    
+}
