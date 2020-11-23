@@ -13,6 +13,9 @@
 .content {
     text-align: center;
 }
+.content img {
+    width: 400px;
+}
 h2 {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -21,5 +24,22 @@ h2 {
     h2 {
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content img {
+        width: 200px;
+    }
+}
+@media screen and (min-width: 920px) and (max-width: 1150px) {
+    .content img {
+        width: 300px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 920px) {
+    .content img {
+        width: 200px;
     }
 }
