@@ -116,7 +116,7 @@ header {
     transition: all 1s;
 }
 
-@media screen and (min-width: 700px) and (orientation: landscape) {
+@media screen and (min-width: 700px) {
     * {
         margin: 0;
         padding: 0;
@@ -150,6 +150,7 @@ header {
         min-height: 100vh;
         background: linear-gradient(98deg, rgba(255, 255, 255,0.88) calc(69.5% - 0.2px), rgba(175, 0, 15,0) 70%);
         z-index: 1;
+        overflow: auto;
     }
     .mobile {
         display:none;
