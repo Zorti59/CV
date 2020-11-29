@@ -9,9 +9,11 @@ align-items: center;
 }
 
 .inside img {
-    width: 22%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 
 #category1 {
