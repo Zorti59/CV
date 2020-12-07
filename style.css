@@ -116,7 +116,7 @@ header {
     transition: all 1s;
 }
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 992px){
     * {
         margin: 0;
         padding: 0;
@@ -348,6 +348,118 @@ header {
         position: absolute;
         top: 700px;
         left: 1250px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255,0.50);
+        animation: square 23s infinite alternate;
+        transition-timing-function: linear;
+    }
+    @keyframes square {
+        0%   { 
+            transform: translateY(0); 
+        }
+        100% { 
+            transform: translateY(-700px) rotate(600deg); 
+        }
+    }
+}
+@media screen and (min-width: 1400px){
+    .square {
+        position: absolute;
+        top: 1200px;
+        left: 350px;
+        width: 60px;
+        height: 60px;
+        background-color: rgba(255, 255, 255,0.50);
+        animation: square 20s infinite alternate;
+        transition-timing-function: linear;
+        z-index: 0;
+    }
+    .squaretwo {
+        position: absolute;
+        top: 1200px;
+        left: 320px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255,0.50);
+        animation: square 18s infinite alternate;
+        transition-timing-function: linear;
+    }
+    .squarethree {
+        position: absolute;
+        top: 1200px;
+        left: 370px;
+        height : 0;
+        width : 0;
+        border-right : 27px solid transparent;
+        border-bottom : 48px solid rgba(255, 255, 255,0.50);
+        border-left : 28px solid transparent;
+        animation: square 16s infinite alternate;
+        transition-timing-function: linear;
+    }
+    .squarefour {
+        position: absolute;
+        top: 1200px;
+        left: 350px;
+        width: 20px;
+        height: 20px;
+        background-color: rgba(255, 255, 255,0.50);
+        animation: square 21s infinite alternate;
+        transition-timing-function: linear;
+        z-index: 0;
+    }
+    .squarefive {
+        position: absolute;
+        top: 1200px;
+        left: 620px;
+        height : 0;
+        width : 0;
+        border-right : 27px solid transparent;
+        border-bottom : 48px solid rgba(255, 255, 255,0.50);
+        border-left : 28px solid transparent;
+        animation: square 27s infinite alternate;
+        transition-timing-function: linear;
+        z-index: 0;
+    }
+    .squaresix {
+        position: absolute;
+        top: 1200px;
+        left: 1000px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(255, 255, 255,0.50);
+        animation: square 29s infinite alternate;
+        transition-timing-function: linear;
+        z-index: 0;
+    }
+    .squareseven {
+        position: absolute;
+        top: 1200px;
+        left: 1150px;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(255, 255, 255,0.50);
+        animation: square 30s infinite alternate;
+        transition-timing-function: linear;
+        z-index: 0;
+    }
+    .squareeight {
+        position: absolute;
+        top: 1200px;
+        left: 1400px;
+        width: 20px;
+        height: 20px;
+        background-color: rgba(255, 255, 255,0.50);
+        animation: square 24s infinite alternate;
+        transition-timing-function: linear;
+        border-radius: 50%;
+        z-index: 0;
+    }
+    .squarenine {
+        position: absolute;
+        top: 1200px;
+        left: 1450px;
         width: 50px;
         height: 50px;
         background-color: rgba(255, 255, 255,0.50);
