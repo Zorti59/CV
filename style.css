@@ -366,7 +366,7 @@ header {
 @media screen and (min-width: 1400px){
     .square {
         position: absolute;
-        top: 1200px;
+        top: 500px;
         left: 350px;
         width: 60px;
         height: 60px;
@@ -377,7 +377,7 @@ header {
     }
     .squaretwo {
         position: absolute;
-        top: 1200px;
+        top: 500px;
         left: 320px;
         width: 40px;
         height: 40px;
@@ -388,7 +388,7 @@ header {
     }
     .squarethree {
         position: absolute;
-        top: 1200px;
+        top: 500px;
         left: 370px;
         height : 0;
         width : 0;
@@ -400,7 +400,7 @@ header {
     }
     .squarefour {
         position: absolute;
-        top: 1200px;
+        top: 500px;
         left: 350px;
         width: 20px;
         height: 20px;
